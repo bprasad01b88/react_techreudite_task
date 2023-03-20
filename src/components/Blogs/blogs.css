@@ -1,0 +1,121 @@
+.blogs__container {
+  background-image: url("/public/img/blogs__back.png");
+  height: 1150px;
+  font-size: 50px;
+  background-repeat: no-repeat;
+  margin-top: -45%;
+}
+
+.blogs__positions {
+  position: relative;
+}
+
+.blog__header {
+  position: absolute;
+  width: 126px;
+  height: 59px;
+  left: calc(47% - 126px / 2 - 479px);
+  top: calc(50% - -430px / 1 - -60px);
+}
+
+.blog__heading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0.16px;
+  color: #232323;
+}
+
+.view__btn {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  left: calc(800% - 88px / 2 - 17.97px);
+  top: calc(120% - 28px / 12);
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.0748936px;
+  color: #3d5fdd;
+}
+
+.span__arrow {
+  position: absolute;
+  left: 100%;
+  right: -20.94%;
+  top: 5%;
+  bottom: 18.18%;
+}
+
+.blog__posts {
+  position: absolute;
+  width: 332px;
+  height: 385px;
+  left: 100px;
+  top: 625px;
+}
+
+.post__container {
+  display: grid;
+  grid-template-columns: 332px 332px 332px;
+  grid-gap: 25px;
+}
+
+.post__container > div {
+  height: 385px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.post__img {
+  border-radius: 12px;
+  width: 332px;
+  height: 200px;
+}
+
+.post__heading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #232323;
+  margin-left: -70%;
+  margin-top: 0%;
+}
+
+.post__date {
+  width: 182px;
+  height: 14px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #606060;
+  margin-top: -10%;
+  margin-left: -8%;
+}
+
+.post__date > span {
+  color: red;
+}
+
+.post__desc {
+  height: 24px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #606060;
+  width: 332px;
+  text-align: justify;
+}

@@ -1,0 +1,81 @@
+.about__container {
+  background-image: url("/public/img/aboutback.png");
+  height: 942px;
+  font-size: 50px;
+  background-repeat: no-repeat;
+  margin-top: -25%;
+}
+
+.about__area {
+  position: relative;
+}
+
+.about__heading {
+  position: absolute;
+  width: 204px;
+  height: 59px;
+  left: calc(50% - 204px / 2 - 456px);
+  top: calc(50% - 59px / 2 + 400px);
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0.16px;
+  color: #232323;
+}
+
+.about__para {
+  position: absolute;
+  height: 69px;
+  left: 8.75%;
+  right: 58.89%;
+  top: calc(65% - 69px / 2 + 500px);
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.102857px;
+  color: #606060;
+}
+
+.get__in__touch {
+  position: absolute;
+  height: 69px;
+  left: 8.75%;
+  right: 58.89%;
+  top: calc(65% - 69px / 2 + 600px);
+  background: #ff6400;
+  border-radius: 35px;
+  width: 248px;
+  height: 54px;
+  cursor: pointer;
+}
+
+.span__text {
+  font-family: "RubikRoman";
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  left: calc(50% - 140px / 2);
+  top: calc(50% - 24px / 2);
+}
+
+.about__logo {
+  position: absolute;
+  width: 642.03px;
+  height: 399.6px;
+  left: 636px;
+  top: 393px;
+}

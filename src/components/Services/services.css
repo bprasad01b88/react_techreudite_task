@@ -1,0 +1,116 @@
+.container {
+  height: 967.87px;
+  margin-top: 5%;
+}
+
+h3 {
+  margin-left: 8%;
+  width: 201px;
+  height: 59px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0.16px;
+  color: #232323;
+}
+
+.content__row_1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content__row_2 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.display {
+  width: 332px;
+  height: 340px;
+  background: #ffffff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  position: relative;
+}
+
+.logo__img {
+  position: absolute;
+  width: 80px;
+  height: 81px;
+  left: 126px;
+  top: 41px;
+}
+
+.heading__service {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.125714px;
+  color: #232323;
+}
+
+.audit_wid {
+  position: absolute;
+  left: calc(50% - 173px / 2 + 1px);
+  top: calc(40% - 28px / 1 - 10px);
+  width: 173px;
+  height: 28px;
+}
+
+.budget__wid {
+  position: absolute;
+  width: 222px;
+  height: 28px;
+  left: calc(50% - 222px / 2);
+  top: calc(40% - 28px / 1 - 10px);
+}
+.payroll__wid {
+  position: absolute;
+  width: 239px;
+  height: 28px;
+  left: calc(50% - 239px / 2 + 0.5px);
+  top: calc(40% - 28px / 1 - 10px);
+}
+.software__wid {
+  position: absolute;
+  width: 238px;
+  height: 28px;
+  left: calc(50% - 238px / 2);
+  top: calc(40% - 28px / 1 - 10px);
+}
+.tax__wid {
+  position: absolute;
+  width: 248px;
+  height: 28px;
+  left: calc(50% - 248px / 2);
+  top: calc(40% - 28px / 1 - 10px);
+}
+.management__wid {
+  position: absolute;
+  width: 270px;
+  height: 28px;
+  left: calc(50% - 270px / 2);
+  top: calc(40% - 28px / 1 - 10px);
+}
+
+.heading__para {
+  position: absolute;
+  height: 120px;
+  left: 5.42%;
+  right: 5.42%;
+  top: calc(50% - 120px / 2 + 84px);
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.0914286px;
+  color: #606060;
+}

@@ -1,0 +1,54 @@
+.testimonial__container {
+  height: 500px;
+  margin-top: 8%;
+}
+
+.testimonial__heading {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0.16px;
+  color: #232323;
+}
+
+.testimonial__section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonial__content {
+  width: 502px;
+  height: 223px;
+  background: #ffffff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.user__info {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.username {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 2%;
+
+  color: #000000;
+}
+
+.testimonial__msg {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #5e5e5e;
+}

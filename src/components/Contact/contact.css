@@ -1,0 +1,133 @@
+.contact__container {
+  height: 500px;
+  margin-top: 5%;
+  position: relative;
+}
+
+.contact__heading {
+  position: absolute;
+  width: 243px;
+  height: 59px;
+  left: calc(41% - 243px / 2 - 271px);
+  top: calc(50% - 59px / 2 - 204px);
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0.16px;
+  color: #232323;
+}
+
+.contact__desc {
+  position: absolute;
+  height: 46px;
+  left: 0%;
+  right: 0%;
+  top: calc(60% - 46px / 2 - 131.5px);
+  margin: 0 auto;
+  width: 785px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.102857px;
+  color: #606060;
+}
+
+.form__section {
+  position: absolute;
+  top: 50%;
+  width: 785px;
+  margin: 0 auto;
+  left: 0%;
+  right: 0%;
+}
+
+.name__grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__grp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.desc__grp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.input {
+  width: 360px;
+  height: 32px;
+  bottom: 38.12;
+}
+
+.form__btn {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  left: calc(39% - 78px / 2);
+  top: calc(150% - 24px / 2);
+  font-family: "RubikRoman";
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form__btn > button {
+  background: #ff6400;
+  border-radius: 35px;
+  width: 248px;
+  height: 54px;
+  color: #fff;
+  border-color: #ff6400;
+}
+
+.error__msg {
+  position: absolute;
+  top: 32%;
+  color: red;
+}
+
+.error__lname {
+  position: absolute;
+  top: 32%;
+  left: 55%;
+  color: red;
+}
+
+.error__email {
+  position: absolute;
+  top: 70%;
+  color: red;
+}
+
+.error__phone {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  color: red;
+}
+
+.error__budget {
+  position: absolute;
+  top: 110%;
+  color: red;
+}
+
+.error__desc {
+  position: absolute;
+  top: 110%;
+  left: 55%;
+  color: red;
+}
