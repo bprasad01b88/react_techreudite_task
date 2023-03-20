@@ -34,7 +34,7 @@ const Blogs = () => {
           <div className="blog__posts">
             <div className="post__container">
               {data.slice(0, 3).map((item) => (
-                <div className="posts">
+                <div className="posts" key={item.id}>
                   <img src={item.image_url} alt="blog" className="post__img" />
                   <h6 className="post__heading">{item.name}</h6>
                   <p className="post__date">
